@@ -1,3 +1,4 @@
+// userResolvers.js
 import prisma from "../../config/prismaClient.js";
 
 export const userResolvers = {
@@ -12,6 +13,15 @@ export const userResolvers = {
 
       return await prisma.user.create({
         data: { name, email, password },
+      });
+    },
+  },
+  User: {
+    orders: async (parent) => {
+      return prisma.order.findMany({
+        where: {
+          userId: parent.id,
+        },
       });
     },
   },

@@ -13,4 +13,25 @@ export const productResolvers = {
       });
     },
   },
+
+  Product: {
+    categories: async (parent) => {
+      try {
+        console.log("Parent product ID:", parent.id);
+        const product = await prisma.product.findUnique({
+          where: {
+            id: parent.id,
+          },
+          include: { 
+            categories: true,
+          },
+        });
+        const categories = product.categories; 
+        return categories;
+      } catch (error) {
+        console.error("Error fetching categories:", error);
+        return []; 
+      }
+    },
+  },
 };

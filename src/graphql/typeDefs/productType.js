@@ -1,13 +1,21 @@
 import { gql } from "graphql-tag";
 
 export const productType = gql`
+  scalar DateTime
+
   type Product {
     id: ID!
     name: String!
     description: String!
     price: Float!
     stock: Int!
-    createdAt: String!
+    createdAt: DateTime!
+    categories: [Category!]! # This line is crucial
+  }
+
+  type Category {
+      id: ID!
+      name: String!
   }
 
   extend type Query {

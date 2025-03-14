@@ -10,6 +10,12 @@ export const userType = gql`
     role: Role!
     balance: Float!
     createdAt: DateTime!
+    orders: [Order!]! # Add this line
+  }
+
+  type Order {
+    id: ID!
+    total: Float!
   }
 
   enum Role {
