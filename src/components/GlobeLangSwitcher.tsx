@@ -1,8 +1,9 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { ChangeEvent, useState, useTransition } from "react";
 import { useTranslations } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation";
+import { Locale } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { RiGlobalLine } from "@remixicon/react";
 import { useParams } from "next/navigation";
@@ -21,16 +22,10 @@ export default function LocaleSwitcher() {
   function handleLocaleChange(nextLocale: string) {
     startTransition(() => {
       router.replace(
-        // Same logic as before:
-        // We'll pass the current route (pathname, params)
-        // and just change the locale
-        {
-          pathname,
-          params: {
-            ...params,
-            locale: nextLocale,
-          }, 
-        },
+        // @ts-expect-error -- TypeScript will validate that only known `params`
+        // are used in combination with a given `pathname`. Since the two will
+        // always match for the current route, we can skip runtime checks.
+        { pathname, params },
         { locale: nextLocale }
       );
     });
@@ -62,7 +57,7 @@ export default function LocaleSwitcher() {
                     e.stopPropagation(); // so it doesn't close prematurely
                     handleLocaleChange(cur);
                   }}
-                  className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                  className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-300"
                 >
                   {t("locale", { locale: cur })}
                 </button>
