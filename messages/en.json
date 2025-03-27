@@ -1,0 +1,86 @@
+{
+  "Metadata": {
+    "title": "Infinity Dev - Portfolio",
+    "description": "Full Stack Developer",
+    "keywords": "software,developer,mern stack,colombia"
+  },
+  "NotFoundPage": {
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+    "title": "Page not found"
+  },
+  "Cart": {
+    "deleteButton": "Remove",
+    "total": "Total",
+    "yourCart": "Your Cart",
+    "noItems": "There are no items in the cart."
+  },
+  "Home": {
+    "addToCart": "Add to Cart"
+  },
+  "Search": {
+    "results": "Results for:",
+    "noResults": "Looking for something? Enter a search..."
+  },
+  "Header": {
+    "searchPlaceholder": "Search Products...",
+    "cartButton": "Cart",
+    "signInButton": "Sign In",
+    "welcome": "Welcome Back",
+    "orderButton": "My Orders"
+  },
+  "noData": {
+    "noData": "No data available"
+  },
+  "Menu": {
+    "home": "Home",
+    "cart": "Cart",
+    "orders": "Contact",
+    "profile": "Profile",
+    "faqs": "Faqs",
+    "conditions": "Conditions"
+  },
+  "LocaleSwitcher": {
+    "label": "Change Language",
+    "locale": "{locale, select, es {🇨🇴 Spanish} en {🇺🇸 English} fr {🇫🇷 French } it {🇮🇹 Italian} pr {🇵🇹 Portuguese }   other {Unknown}}"
+  },
+  "Dashboard": {
+    "openMenu": "Open",
+    "closeMenu": "Close",
+    "Sidebar": {
+      "overview": "Overview",
+      "sales": "Sales",
+      "createProduct": "Create Product",
+      "orders": "orders",
+      "analytics": "analytics"
+    }
+  },
+  "Contact": {
+    "fullName": "Full name must be at least 3 characters",
+    "email": "Invalid email address",
+    "phone": "Invalid phone number",
+    "subject": "Subject must be at least 3 characters",
+    "message": "Message must be at least 10 characters",
+    "formTitle": "Get in Touch",
+    "sendButton": "Send",
+    "sendingButton": "Sending...",
+    "success": "Message sent successfully!",
+    "placeholders": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message"
+    }
+  },
+  "Footer": {
+    "home": "Home",
+    "copyright": "© {year}",
+    "poweredBy": "Powered by Infinity Dev",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "contact": "Contact",
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "whatsappMessage": "Hi, I've seen your portfolio and I'd like to know more about your experience."
+  }
+}

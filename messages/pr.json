@@ -1,0 +1,86 @@
+{
+  "Metadata": {
+    "title": "Infinity Dev - Portfólio",
+    "description": "Desenvolvedor Full Stack",
+    "keywords": "software,desenvolvedor,mern stack,colômbia"
+  },
+  "NotFoundPage": {
+    "description": "Verifique o endereço na barra do navegador ou use a navegação para acessar uma página conhecida.",
+    "title": "Página não encontrada"
+  },
+  "Cart": {
+    "deleteButton": "Remover",
+    "total": "Total",
+    "yourCart": "Seu carrinho",
+    "noItems": "Não há produtos no carrinho."
+  },
+  "Home": {
+    "addToCart": "Adicionar ao carrinho"
+  },
+  "noData": {
+    "noData": "Nenhum dado disponível"
+  },
+  "Search": {
+    "results": "Resultados para:",
+    "noResults": "Procurando algo? Digite uma busca..."
+  },
+  "Header": {
+    "searchPlaceholder": "Buscar Produtos...",
+    "cartButton": "Carrinho",
+    "signInButton": "Entrar",
+    "welcome": "Bem-vindo de Volta",
+    "orderButton": "Meus Pedidos"
+  },
+  "Menu": {
+    "home": "Início",
+    "cart": "Carrinho",
+    "orders": "Pedidos",
+    "profile": "Perfil",
+    "faqs": "Perguntas Frequentes",
+    "conditions": "Condições"
+  },
+  "LocaleSwitcher": {
+    "label": "Mudar idioma",
+    "locale": "{locale, select, es {🇨🇴 Espanhol} en {🇺🇸 Inglês} fr {🇫🇷 Francês} it {🇮🇹 Italiano} pr {🇵🇹 Português} other {Desconhecido}}"
+  },
+  "Dashboard": {
+    "openMenu": "Abrir",
+    "closeMenu": "Fechar",
+    "Sidebar": {
+      "overview": "Visão Geral",
+      "sales": "Vendas",
+      "createProduct": "Criar Produto",
+      "orders": "Pedidos",
+      "analytics": "Análises"
+    }
+  },
+  "Contact": {
+    "fullName": "O nome completo deve ter pelo menos 3 caracteres",
+    "email": "Endereço de e-mail inválido",
+    "phone": "Número de telefone inválido",
+    "subject": "O assunto deve ter pelo menos 3 caracteres",
+    "message": "A mensagem deve ter pelo menos 10 caracteres",
+    "formTitle": "Entre em contato",
+    "sendButton": "Enviar",
+    "sendingButton": "Enviando...",
+    "success": "Mensagem enviada com sucesso!",
+    "placeholders": {
+      "fullName": "Nome Completo",
+      "email": "Endereço de E-mail",
+      "subject": "Assunto",
+      "message": "Mensagem"
+    }
+  },
+  "Footer": {
+    "home": "Início",
+    "copyright": "© {year}",
+    "poweredBy": "Desenvolvido por Infinity Dev",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço",
+    "contact": "Contato",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "experience": "Experiência",
+    "whatsappMessage": "Olá, vi seu portfólio e gostaria de saber mais sobre sua experiência."
+  }
+}

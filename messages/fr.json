@@ -1,0 +1,86 @@
+{
+  "Metadata": {
+    "title": "Infinity Dev - Portfolio",
+    "description": "Développeur Full Stack",
+    "keywords": "logiciel,développeur,mern stack,colombie"
+  },
+  "NotFoundPage": {
+    "description": "Veuillez vérifier l'adresse dans la barre du navigateur ou utiliser la navigation pour accéder à une page connue.",
+    "title": "Page non trouvée"
+  },
+  "Cart": {
+    "deleteButton": "Supprimer",
+    "total": "Total",
+    "yourCart": "Votre panier",
+    "noItems": "Il n'y a aucun produit dans le panier."
+  },
+  "Home": {
+    "addToCart": "Ajouter au panier"
+  },
+  "Search": {
+    "results": "Résultats pour :",
+    "noResults": "Vous cherchez quelque chose ? Entrez une recherche..."
+  },
+  "Header": {
+    "searchPlaceholder": "Rechercher des Produits...",
+    "cartButton": "Panier",
+    "signInButton": "Se Connecter",
+    "welcome": "Bon Retour",
+    "orderButton": "Mes Commandes"
+  },
+  "noData": {
+    "noData": "Aucune donnée disponible"
+  },
+  "Menu": {
+    "home": "Accueil",
+    "cart": "Panier",
+    "orders": "Commandes",
+    "profile": "Profil",
+    "faqs": "FAQ",
+    "conditions": "Conditions"
+  },
+  "LocaleSwitcher": {
+    "label": "Changer la langue",
+    "locale": "{locale, select, es {🇨🇴 Espagnol} en {🇺🇸 Anglais} fr {🇫🇷 Français} it {🇮🇹 Italien} pr {🇵🇹 Portugais} other {Inconnu}}"
+  },
+  "Dashboard": {
+    "openMenu": "Ouvrir",
+    "closeMenu": "Fermer",
+    "Sidebar": {
+      "overview": "Vue d'ensemble",
+      "sales": "Ventes",
+      "createProduct": "Créer un produit",
+      "orders": "Commandes",
+      "analytics": "Analyses"
+    }
+  },
+  "Contact": {
+    "fullName": "Le nom complet doit contenir au moins 3 caractères",
+    "email": "Adresse e-mail invalide",
+    "phone": "Numéro de téléphone invalide",
+    "subject": "L'objet doit contenir au moins 3 caractères",
+    "message": "Le message doit contenir au moins 10 caractères",
+    "formTitle": "Contactez-nous",
+    "sendButton": "Envoyer",
+    "sendingButton": "Envoi...",
+    "success": "Message envoyé avec succès !",
+    "placeholders": {
+      "fullName": "Nom complet",
+      "email": "Adresse e-mail",
+      "subject": "Objet",
+      "message": "Message"
+    }
+  },
+  "Footer": {
+    "home": "Accueil",
+    "copyright": "© {year}",
+    "poweredBy": "Propulsé par Infinity Dev",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "contact": "Contact",
+    "about": "À propos",
+    "projects": "Projets",
+    "experience": "Expérience",
+    "whatsappMessage": "Bonjour, j'ai vu votre portfolio et j'aimerais en savoir plus sur votre expérience."
+  }
+}
