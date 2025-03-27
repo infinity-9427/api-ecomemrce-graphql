@@ -4,7 +4,7 @@ import { useState, useTransition } from "react";
 import { useTranslations } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
-import { RiGlobalLine } from "@remixicon/react"; 
+import { RiGlobalLine } from "@remixicon/react";
 import { useParams } from "next/navigation";
 
 export default function LocaleSwitcher() {
@@ -26,7 +26,10 @@ export default function LocaleSwitcher() {
         // and just change the locale
         {
           pathname,
-          params
+          params: {
+            ...params,
+            locale: nextLocale,
+          }, 
         },
         { locale: nextLocale }
       );
