@@ -9,8 +9,8 @@ const intlMiddleware = createMiddleware({
   defaultLocale: 'en',
 });
 
-export default clerkMiddleware((_, req) => {
-  return intlMiddleware(req);
+export default clerkMiddleware((request) => {
+  return intlMiddleware(request);
 });
 
 export const config: MiddlewareConfig = {
